@@ -24,6 +24,7 @@
 		9AAAC7C42554D15C004C6D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAAC7C72554D15C004C6D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AAAC7C92554D15C004C6D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAAC7E125562331004C6D67 /* Adder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Adder; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		9AAAC7BA2554D158004C6D67 /* PackageTesting */ = {
 			isa = PBXGroup;
 			children = (
+				9AAAC7DF255621E3004C6D67 /* Subpackage */,
 				9AAAC7BB2554D158004C6D67 /* AppDelegate.swift */,
 				9AAAC7BD2554D158004C6D67 /* SceneDelegate.swift */,
 				9AAAC7BF2554D158004C6D67 /* ViewController.swift */,
@@ -65,6 +67,14 @@
 				9AAAC7C92554D15C004C6D67 /* Info.plist */,
 			);
 			path = PackageTesting;
+			sourceTree = "<group>";
+		};
+		9AAAC7DF255621E3004C6D67 /* Subpackage */ = {
+			isa = PBXGroup;
+			children = (
+				9AAAC7E125562331004C6D67 /* Adder */,
+			);
+			path = Subpackage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

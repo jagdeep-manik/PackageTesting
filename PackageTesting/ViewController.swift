@@ -7,14 +7,16 @@
 //
 
 import UIKit
+import Adder
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print(Adder.add(1, 2))
     }
-
 
 }
 
